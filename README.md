@@ -1,6 +1,8 @@
 # 🪙 WNC Coin (WinCoin)
+<p align="center">
+  <img src="https://github.com/win-li/WNC-Coin/raw/main/logo.png" alt="WNC Coin Logo" width="160">
+</p>
 
-![WNC Logo](https://github.com/win-li/WNC-Coin/blob/main/logo.png) <!-- 替换为你上传的 logo 链接 -->
 
 **维恩币（WinCoin / WNC）** 是一个基于 Litecoin 分叉的开放源代码区块链项目，支持挖矿，每四年区块奖励减半，采用高效的 Scrypt 算法，目标是打造一个轻量、透明、人人可参与的数字货币。
 
