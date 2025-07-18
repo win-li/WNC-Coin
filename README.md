@@ -18,3 +18,8 @@
 ```bash
 ./wnc-cli generatetoaddress 1 <你的地址>
 ```
+
+
+
+WNC 项目完全开源，欢迎贡献代码、文档、Logo、Web 钱包等。
+你可以提交 PR、报告问题或发起功能提案。
