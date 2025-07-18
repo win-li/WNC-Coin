@@ -4,66 +4,43 @@
   <img src="https://github.com/win-li/WNC-Coin/raw/main/logo.png" alt="WNC Coin Logo" width="160">
 </p>
 
-WNC Coin (WinCoin / WNC) is an open-source blockchain project forked from Litecoin. It supports mining, reduces block rewards every four years, and uses the efficient Scrypt algorithm. The goal is to create a lightweight, transparent, and accessible cryptocurrency for everyone.
+**维恩币（WinCoin / WNC）** 是一个基于 Litecoin 分叉的开放源代码区块链项目，支持挖矿，每四年区块奖励减半，采用高效的 Scrypt 算法，目标是打造一个轻量、透明、人人可参与的数字货币。
 
-🚀 Project Vision
+---
 
-"A cryptocurrency created for ordinary people."
+## 🚀 项目愿景 Vision
 
-Decentralized and transparent
+> **“为普通人而生的加密货币。”**
 
-Accessible mining for the public, supports personal devices
+- 去中心化、透明可信
+- 面向大众挖矿，支持个人设备
+- 没有预挖、没有预售
+- 永久减半机制确保稀缺性
+- 易于部署与运行，适合教育、社区和实验场景
 
-No premine, no presale
+---
 
-Permanent halving mechanism ensures scarcity
+## 🔢 基础参数
 
-Easy to deploy and run, ideal for education, communities, and experimental use
+| 参数 | 值 |
+|------|----|
+| 币名 | 维恩币（WinCoin） |
+| 简称 | `WNC` |
+| 总供应量 | 21,000,000 枚 |
+| 初始区块奖励 | 50 WNC |
+| 减半周期 | 每 840,000 区块（约 4 年） |
+| 区块时间 | 150 秒（2.5 分钟） |
+| 挖矿算法 | Scrypt（兼容 Litecoin 矿机） |
+| 创世语句 | "WNC Genesis - The New Era Begins 2025" |
 
-🔢 Core Parameters
+---
 
-Parameter
+## ⛏️ 挖矿方式
 
-Value
+WNC 使用 **Scrypt 算法**，支持以下挖矿方式：
 
-Coin Name
-
-WinCoin (WNC)
-
-Ticker Symbol
-
-WNC
-
-Max Supply
-
-21,000,000 coins
-
-Initial Block Reward
-
-50 WNC
-
-Halving Interval
-
-Every 840,000 blocks (~4 years)
-
-Block Time
-
-150 seconds (2.5 minutes)
-
-Mining Algorithm
-
-Scrypt (compatible with Litecoin miners)
-
-Genesis Message
-
-"WNC Genesis - The New Era Begins 2025"
-
-⛏️ Mining Methods
-
-WNC uses the Scrypt algorithm and supports the following mining methods:
-
-Local command-line mining (for testing only)
-
-./wnc-cli generatetoaddress 1 <your_address>
+1. **本地命令行挖矿（仅测试用途）**
+   ```bash
+   ./wnc-cli generatetoaddress 1 <你的地址>
 
 
